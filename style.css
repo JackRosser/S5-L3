@@ -17,6 +17,20 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-block: 2rem;
+}
+
+h1 {
+  text-align: center;
+
+  max-width: 300px;
+}
+
 /* NAV */
 
 nav ul {
@@ -48,7 +62,7 @@ nav ul li {
 }
 
 li img {
-  max-width: 20px;
+  max-height: 30px;
   margin-right: 0.5rem;
 }
 
@@ -72,7 +86,15 @@ nav ul li:first-child {
   border-radius: 50px;
   overflow: hidden;
   padding-bottom: 1rem;
-  margin: auto;
+  margin: 1rem auto;
+}
+
+main div:first-of-type {
+  margin-top: 2rem;
+}
+
+main div:last-of-type {
+  margin-bottom: 0;
 }
 
 .card img {
