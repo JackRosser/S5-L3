@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  z-index: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #612406;
+}
+
+button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #612406;
+  background-color: #f3df85;
+  cursor: pointer;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  background-color: #fcf7e3;
+}
