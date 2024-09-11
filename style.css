@@ -13,13 +13,6 @@ body {
   color: #612406;
 }
 
-button {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #612406;
-  background-color: #f3df85;
-  cursor: pointer;
-}
-
 body::-webkit-scrollbar {
   display: none;
 }
@@ -27,15 +20,16 @@ body::-webkit-scrollbar {
 main {
   padding: 1.5rem;
 }
+/* CARD */
 
 .card {
-  background-color: #fcf7e3;
+  background-color: #fef7e2;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   max-width: 400px;
-  height: 400px;
+  min-height: 380px;
   border-radius: 50px;
   overflow: hidden;
   padding-bottom: 1rem;
@@ -48,8 +42,23 @@ main {
 .card__data {
   display: flex;
   align-items: center;
-  border: 1px solid red;
   text-align: center;
   min-width: 80%;
   justify-content: space-between;
+}
+
+div p:first-child {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.card button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #612406;
+  background-color: #ffdf80;
+  cursor: pointer;
+  padding: 1rem 4rem;
+  border-radius: 30px;
+  font-size: 1.2rem;
 }
